@@ -46,3 +46,45 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+There is a hermit. Hermit has many seasons. Season has many episodes.
+
+Hermit model
+
+- [ ] real_name: string what mom named them
+- [x] start_year: integer 
+- [x] alias: string character name
+- [ ] alias_img: text url or text for image of alias
+- [ ] alias_alt: string alt text for img
+- [ ] nick_name: string what friends call them
+- [x] subs: float number of subscriptions
+- [ ] location: string city and country
+- [ ] quote: string common saying
+- [x] description: text information on the person and character
+- [x] youtube: text url
+- [x] twitch: text url
+- [x] twitter: text url
+- [x] instagram: text url
+- [x] patreon: text url
+- [x] skin: text url image or url, full skin
+- [x] skin_alt: string alt text for skin
+- [x] face: text url image of face, not avatar
+- [x] face_alt: string alt text for face
+- [ ] avatar: text url for avatar
+- [ ] banner_img: text banner image url
+
+Season model
+
+- [x] se_number: integer
+- [x] se_description: text
+- [ ] se_hermit: reference hermit
+
+Episode model
+
+- [x] ep_number: integer
+- [x] ep_description: text
+- [x] ep_img: text - url
+- [x] ep_alt: string
+- [x] ep_video_key
+- [ ] ep_season: reference season
+- [ ] ep_hermit: reference hermit

@@ -1,0 +1,2 @@
+class Hermit < ApplicationRecord
+end
